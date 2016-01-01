@@ -232,4 +232,5 @@ ADD_SUBDIRECTORY(tests)
 install( TARGETS gc-lib gcmt-lib gcmt-dll 
     RUNTIME DESTINATION bin
     LIBRARY DESTINATION lib
+    ARCHIVE DESTINATION lib)
 )
